@@ -11,15 +11,11 @@ body {
 }
 
 .full {
-  background: url(../img/snowy-trees.jpg) no-repeat center center fixed; 
+  background: url(../img/snowy-trees.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-#welcome{
-	text-align: center;
-	font-weight: bold;
 }
 #content{
 	background-color: #ededed;
@@ -31,7 +27,7 @@ body {
 	border: 5px solid #fff;
 	font-size: small;
 }
-.item p{
+.item #title{
 	text-align: center;
 }
 .row .logo{
@@ -45,6 +41,13 @@ body {
 	font-weight: bold;
 	color:red;
 }
-span glyphicon-cart{
-	font-size: 2em;
+#video_row{
+	margin:20px 0px;
+}
+#footer{
+	border-top: 3px solid #000;
+	background-color: #fff;
+}
+#footer li{
+	list-style: none;
 }
